@@ -1220,6 +1220,13 @@ header ul a:hover{
         top: -30px;
         left: 25%;
     }
+    .contact-section .social-box{
+        display:flex;
+        justify-content:center;
+        align-item:center;
+        padding:15px;
+    }
+        
 
     .footer{
         padding: 15px;
