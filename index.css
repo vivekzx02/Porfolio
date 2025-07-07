@@ -1118,6 +1118,11 @@ header ul a:hover{
         margin-top: 100px;
         margin-bottom: 50px;
     }
+     .social-box i{
+        display: flex;
+        margin: 20px;
+        align-items: center;
+    }
 
     .footer{
         font-size: 10px;
