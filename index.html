@@ -233,6 +233,17 @@
 
         
     </div>
+    <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script> 
+<script>// Initialize Lenis
+const lenis = new Lenis();
+
+// Use requestAnimationFrame to continuously update the scroll
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);</script>
     
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script >
@@ -278,3 +289,4 @@ closeIcon.addEventListener("click", function(){
     </script>
 </body>
 </html>
+
